@@ -6,7 +6,70 @@
         xmlns:local="clr-namespace:Lab_1_AsadullinaD.D._БПИ_23_01"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
-    <Grid>
-        
+    <Grid Margin="10">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <!-- Заголовок -->
+            <RowDefinition Height="Auto"/>
+            <!-- Форма -->
+            <RowDefinition Height="Auto"/>
+            <!-- Кнопки -->
+            <RowDefinition Height="*"/>
+            <!-- Результаты -->
+        </Grid.RowDefinitions>
+
+        <TextBlock Grid.Row="0" Text="Ввод данных работника" FontSize="18" FontWeight="Bold" Margin="0,0,0,10" />
+
+        <!-- Форма ввода -->
+        <Grid Grid.Row="1" Margin="0,0,0,10">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="150"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+
+            <StackPanel Grid.Column="0" Orientation="Vertical" VerticalAlignment="Top" >
+                <Label Content="Фамилия:"/>
+                <Label Content="Оклад (руб):"/>
+                <Label Content="Год поступления:"/>
+            </StackPanel>
+
+            <StackPanel Grid.Column="1" Orientation="Vertical" VerticalAlignment="Top">
+                <TextBox x:Name="SurnameTextBox" Width="250" Margin="0,0,0,6"
+                         ToolTip="Введите фамилию (только буквы, пробелы и дефис)">
+                    <TextBox.InputBindings>
+                        <!-- оставлено пустым — валидация в обработчике PreviewTextInput -->
+                    </TextBox.InputBindings>
+                </TextBox>
+
+                <TextBox x:Name="SalaryTextBox" Width="250" Margin="0,0,0,6"
+                         PreviewTextInput="SalaryTextBox_PreviewTextInput"
+                         PreviewKeyDown="Numeric_PreviewKeyDown"
+                         ToolTip="Введите оклад (например 30000.50)">
+                </TextBox>
+
+                <TextBox x:Name="YearTextBox" Width="250"
+                         PreviewTextInput="YearTextBox_PreviewTextInput"
+                         PreviewKeyDown="Numeric_PreviewKeyDown"
+                         ToolTip="Введите год (например 2018)">
+                </TextBox>
+            </StackPanel>
+        </Grid>
+
+        <!-- Кнопки -->
+        <StackPanel Grid.Row="2" Orientation="Horizontal" HorizontalAlignment="Left" Margin="0,0,0,10" >
+            <!-- Обработчик в XAML -->
+            <Button x:Name="BtnExperience" Content="Вычислить стаж (в годах)" Width="180" Margin="0,0,10,0" Click="BtnExperience_Click"/>
+            <!-- Обработчик добавлен в конструкторе (пример) -->
+            <Button x:Name="BtnDays" Content="Сколько дней прошло с года" Width="200" Margin="0,0,10,0" Click="BtnDays_Click"/>
+            <Button x:Name="BtnClear" Content="Очистить" Width="80" Click="BtnClear_Click"/>
+        </StackPanel>
+
+        <!-- Результаты -->
+        <StackPanel Grid.Row="3" Orientation="Vertical">
+            <TextBlock x:Name="ResultExperience" FontSize="14" Margin="0,0,0,6"/>
+            <TextBlock x:Name="ResultDays" FontSize="14" Margin="0,0,0,6"/>
+            <TextBlock x:Name="ValidationText" Foreground="Red" FontWeight="Bold"/>
+        </StackPanel>
+
     </Grid>
 </Window>
