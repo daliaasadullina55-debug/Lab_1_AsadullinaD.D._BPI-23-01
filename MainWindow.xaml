@@ -64,7 +64,6 @@
             <Button x:Name="BtnClear" Content="Очистить" Width="80" Click="BtnClear_Click"/>
         </StackPanel>
 
-        <!-- Результаты -->
         <StackPanel Grid.Row="3" Orientation="Vertical">
             <TextBlock x:Name="ResultExperience" FontSize="14" Margin="0,0,0,6"/>
             <TextBlock x:Name="ResultDays" FontSize="14" Margin="0,0,0,6"/>

@@ -1,0 +1,68 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\79196\\source\\repos\\Lab_1_AsadullinaD.D._BPI-23-01\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F0DB3CA6-C6F0-49AD-9D3E-3CDEB82732CC}|Lab_1_AsadullinaD.D._\u0411\u041F\u0418-23-01.csproj|c:\\users\\79196\\source\\repos\\lab_1_asadullinad.d._bpi-23-01\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F0DB3CA6-C6F0-49AD-9D3E-3CDEB82732CC}|Lab_1_AsadullinaD.D._\u0411\u041F\u0418-23-01.csproj|solutionrelative:mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F0DB3CA6-C6F0-49AD-9D3E-3CDEB82732CC}|Lab_1_AsadullinaD.D._\u0411\u041F\u0418-23-01.csproj|C:\\Users\\79196\\source\\repos\\Lab_1_AsadullinaD.D._BPI-23-01\\classw.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F0DB3CA6-C6F0-49AD-9D3E-3CDEB82732CC}|Lab_1_AsadullinaD.D._\u0411\u041F\u0418-23-01.csproj|solutionrelative:classw.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F0DB3CA6-C6F0-49AD-9D3E-3CDEB82732CC}|Lab_1_AsadullinaD.D._\u0411\u041F\u0418-23-01.csproj|C:\\Users\\79196\\source\\repos\\Lab_1_AsadullinaD.D._BPI-23-01\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{F0DB3CA6-C6F0-49AD-9D3E-3CDEB82732CC}|Lab_1_AsadullinaD.D._\u0411\u041F\u0418-23-01.csproj|solutionrelative:mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ClassW.cs",
+              "DocumentMoniker": "C:\\Users\\79196\\source\\repos\\Lab_1_AsadullinaD.D._BPI-23-01\\ClassW.cs",
+              "RelativeDocumentMoniker": "ClassW.cs",
+              "ToolTip": "C:\\Users\\79196\\source\\repos\\Lab_1_AsadullinaD.D._BPI-23-01\\ClassW.cs",
+              "RelativeToolTip": "ClassW.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAgwBoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-22T06:54:27.133Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\79196\\source\\repos\\Lab_1_AsadullinaD.D._BPI-23-01\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\79196\\source\\repos\\Lab_1_AsadullinaD.D._BPI-23-01\\MainWindow.xaml.cs",
+              "RelativeToolTip": "MainWindow.xaml.cs",
+              "ViewState": "AQIAAGIAAAAAAAAAAAAowHIAAABeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-22T05:01:08.668Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\79196\\source\\repos\\Lab_1_AsadullinaD.D._BPI-23-01\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "MainWindow.xaml",
+              "ToolTip": "C:\\Users\\79196\\source\\repos\\Lab_1_AsadullinaD.D._BPI-23-01\\MainWindow.xaml",
+              "RelativeToolTip": "MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-09-22T04:59:10.231Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
